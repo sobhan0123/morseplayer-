@@ -10,7 +10,9 @@ Features
 - Simple command line interface (CLI)
 
 Installation
+
 download the project from github
+
 cd morseplayer 
 pip install .
 
