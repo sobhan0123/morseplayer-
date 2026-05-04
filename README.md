@@ -13,7 +13,7 @@ Installation
 
 download the project from github
 
-cd morseplayer 
+cd morseplayer--main
 
 
 
