@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "morseplayer"
+version = "1.0.0"
+authors = [
+  { name="SOBHAN", email="s66056299@example.com" }, 
+]
+description = "A simple Morse code player and converter with audio playback and WAV saving."
+readme = "README.md" 
+requires-python = ">=3.8"
+keywords = ["morse", "morse code", "audio", "converter", "player", "wav"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Communications",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "numpy",
+    "sounddevice",
+]
+
+[project.scripts]
+morseplayer = "morseplayer.cli:main"
