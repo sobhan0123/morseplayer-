@@ -14,6 +14,7 @@ Installation
 download the project from github
 
 cd morseplayer 
+
 pip install .
 
 Command Line Usage
